@@ -24,6 +24,7 @@
         And also create `.gitignore` file and write `electron-builder.yml` 
           this means that when the project is build electron-builder cannot be included in the build file.
 - Inside `electron-builder.yml`, we can declare,
+
    ``` 
    appId: com.example.app
        publish: 
