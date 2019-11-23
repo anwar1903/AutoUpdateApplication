@@ -1,11 +1,9 @@
 ## Step 1:
 - Install Electron, Electron Builder
 
-        ```
         npm install --save-dev electron  (version: 7.1.2) 
-        
         npm add electron-builder --only=dev (version: 21.2.0)
-        ```       
+        
 ## Step 2:
 - write a Following code to `index.js` file 
        [Click](https://github.com/anwar1903/AutoUpdateApplication/blob/dev/index.js#L1)
