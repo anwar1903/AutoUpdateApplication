@@ -1,0 +1,48 @@
+{
+  "name": "autoupdateapplication",
+  "version": "1.0.0",
+  "description": "Testing",
+  "main": "index.js",
+  "build": {
+    "appId": "demo.update.app",
+    "productName": "AutoUpdateApplication",
+    "asar": true,
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "ia32"
+          ]
+        }
+      ]
+    },
+    "nsis": {
+      "allowToChangeInstallationDirectory": true,
+      "shortcutName": "AutoUpdateAPp",
+      "oneClick": false,
+      "artifactName": "autoupdateapplication.exe",
+      "runAfterFinish": true
+    },
+    "publish": {
+      "provider": "github",
+      "token": "990f4a7e1e3f86645f3e83ef2f5093e13a30f59d"
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "deploy": "electron-builder build  --win --publish always"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.1.2",
+    "electron-packager": "^14.1.1",
+    "electron-builder": "^21.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anwar1903/AutoUpdateApplication.git"
+  }
+}
