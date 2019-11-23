@@ -26,7 +26,7 @@
     },
     "publish": {
       "provider": "github",
-      "token": "990f4a7e1e3f86645f3e83ef2f5093e13a30f59d"
+      "token": "YOUR GITHUB TOKEN"
     }
   },
   "scripts": {
